@@ -46,7 +46,7 @@ class Pipeline:
         print(user_message)
 
         OPENAI_API_KEY = self.valves.OPENAI_API_KEY
-        MODEL = "gpt-3.5-turbo"
+        MODEL = "gpt-4o"
 
         headers = {}
         headers["Authorization"] = f"Bearer {OPENAI_API_KEY}"
